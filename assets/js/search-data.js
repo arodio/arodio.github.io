@@ -422,7 +422,7 @@ ninja.data = [{
           title: 'Paper accepted at IEEE INFOCOM 2023, Hoboken, USA.',
           description: "",
           section: "News",},{id: "news-paper-accepted-in-ieee-acm-transactions-on-networking",
-          title: 'Paper accepted in IEEE/ACM Transactions on Networking.',
+          title: '📄 Paper accepted in IEEE/ACM Transactions on Networking.',
           description: "",
           section: "News",},{id: "news-paper-accepted-at-wpmc-2023-university-of-south-florida-tampa-usa",
           title: '📄 Paper accepted at WPMC 2023, University of South Florida, Tampa, USA.',
