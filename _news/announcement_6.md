@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-09-04 07:59:00-0400
+date: 2024-06-20
 inline: true
 related_posts: false
 ---
 
-Accepted journal paper at IEEE/ACM Transactions on Networking
+Presented a poster at [ACM SIGMETRICS 2024](https://www.sigmetrics.org/sigmetrics2024/), Venice, Italy.

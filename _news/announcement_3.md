@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2022-12-08 07:59:00-0400
+date: 2022-12-15
 inline: true
 related_posts: false
 ---
 
-Accepted [conference paper](https://ieeexplore.ieee.org/document/10228876) at IEEE INFOCOM 2023
+Paper accepted at [IEEE INFOCOM 2023](https://ieeexplore.ieee.org/document/10228876), Hoboken, USA.
