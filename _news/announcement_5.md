@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper accepted at [WPMC 2023](http://wpmc2023.com/), University of South Florida, Tampa, USA.
+📄 Paper accepted at [WPMC 2023](https://ieeexplore.ieee.org/xpl/conhome/10338831/proceeding), University of South Florida, Tampa, USA.
