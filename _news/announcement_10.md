@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper accepted at [IEEE ITW 2025](https://itw2025.org/).
+📄 Paper accepted at [IEEE ITW 2025](https://www.ieee-itw2025.org/). 
