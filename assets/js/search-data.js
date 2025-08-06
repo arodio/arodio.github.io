@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-bio",
           title: "Bio",
-          description: "Short academic biography",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/bio/";
