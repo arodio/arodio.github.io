@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper accepted in IEEE/ACM Transactions on Networking.
+📄 Paper accepted in [IEEE/ACM Transactions on Networking](https://dl.acm.org/journal/ton).
