@@ -2,7 +2,7 @@
 layout: page
 permalink: /bio/
 title: Bio
-description: Short academic biography
+description:
 nav: true
 nav_order: 1
 ---
@@ -12,5 +12,5 @@ Through a double-degree program, I also obtained an MSc in Computer Engineering 
 
 I defended my PhD thesis titled _["Client Heterogeneity in Federated Learning Systems"](https://www.theses.fr/s318701)_ at Inria, France, on July 3rd, 2024, supervised by [Giovanni Neglia](http://www-sop.inria.fr/members/Giovanni.Neglia/).
 
-For more details, please refer to my [CV](assets/pdf/CV.pdf) *(updated July 2025)*.
+For more details, please refer to my [CV](assets/pdf/cv.pdf) *(updated July 2025)*.
 
