@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper accepted at [IEEE MASCOTS 2025](https://mascots.symposium.org/2025/).
+📄 Paper accepted at [IEEE MASCOTS 2025](https://mascots25.iitis.pl/).
