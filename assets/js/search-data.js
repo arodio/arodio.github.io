@@ -419,7 +419,7 @@ ninja.data = [{
           title: 'Presented a talk at the Workshop on Frugal Machine Learning, Université Grenoble Alpes,...',
           description: "",
           section: "News",},{id: "news-paper-accepted-at-ieee-infocom-2023-hoboken-usa",
-          title: 'Paper accepted at IEEE INFOCOM 2023, Hoboken, USA.',
+          title: '📄 Paper accepted at IEEE INFOCOM 2023, Hoboken, USA.',
           description: "",
           section: "News",},{id: "news-paper-accepted-in-ieee-acm-transactions-on-networking",
           title: '📄 Paper accepted in IEEE/ACM Transactions on Networking.',
