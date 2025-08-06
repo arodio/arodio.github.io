@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper accepted at [IEEE INFOCOM 2023](https://ieeexplore.ieee.org/document/10228876), Hoboken, USA.
+📄 Paper accepted at [IEEE INFOCOM 2023](https://infocom2023.ieee-infocom.org/), Hoboken, USA. 
