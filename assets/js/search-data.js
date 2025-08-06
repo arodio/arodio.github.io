@@ -9,33 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-publications",
+  },{id: "nav-publications",
           title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
-          },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
           title: "CV",
@@ -51,28 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -440,16 +398,29 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-presented-a-talk-on-resource-aware-federated-learning-at-sophi-a-summit-2022-sophia-antipolis-france",
+          title: 'Presented a talk on “Resource-Aware Federated Learning” at SophI.A Summit 2022, Sophia-Antipolis, France...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-presented-a-talk-at-the-workshop-on-frugal-machine-learning-université-grenoble-alpes-france",
+          title: 'Presented a talk at the Workshop on Frugal Machine Learning, Université Grenoble Alpes,...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-accepted-conference-paper-at-ieee-infocom-2023",
+          title: 'Accepted conference paper at IEEE INFOCOM 2023',
+          description: "",
+          section: "News",},{id: "news-presented-a-paper-at-ieee-infocom-2023-stevens-institute-of-technology-hoboken-united-states",
+          title: 'Presented a paper at IEEE INFOCOM 2023, Stevens Institute of Technology, Hoboken, United...',
+          description: "",
+          section: "News",},{id: "news-accepted-conference-paper-at-wpmc-2023",
+          title: 'Accepted conference paper at WPMC 2023',
+          description: "",
+          section: "News",},{id: "news-accepted-journal-paper-at-ieee-acm-transactions-on-networking",
+          title: 'Accepted journal paper at IEEE/ACM Transactions on Networking',
+          description: "",
+          section: "News",},{id: "news-presented-a-talk-at-wpmc-2023-university-of-south-florida-tampa-united-states",
+          title: 'Presented a talk at WPMC 2023, University of South Florida, Tampa, United States...',
+          description: "",
+          section: "News",},{id: "news-accepted-abstract-at-acm-sigmetrics-student-research-competition-src",
+          title: 'Accepted abstract at ACM SIGMETRICS Student Research Competition (SRC)',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
