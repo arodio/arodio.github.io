@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a post-doctoral researcher at *[Linköping University, Sweden](https://liu.se/en/organisation/liu/isy/ks)*,  working with *[Erik G. Larsson](https://liu.se/en/employee/erila39)* and *[Zheng Chen](https://liu.se/en/employee/zhech93)* on *decentralized machine learning*. 
+I am a post-doctoral researcher at [Linköping University, Sweden](https://liu.se/en/organisation/liu/isy/ks),  working with [Erik G. Larsson](https://liu.se/en/employee/erila39) and [Zheng Chen](https://liu.se/en/employee/zhech93) on decentralized machine learning. 
 
-Previously, I completed my PhD at *[Inria, France](https://team.inria.fr/neo/team-members/)*, working with [Giovanni Neglia](http://www-sop.inria.fr/members/Giovanni.Neglia/) on *federated learning*. 
+Previously, I completed my PhD at [Inria, France](https://team.inria.fr/neo/team-members/), working with [Giovanni Neglia](http://www-sop.inria.fr/members/Giovanni.Neglia/) on federated learning. 
 
 My research focuses on designing scalable distributed algorithms for efficient use of data and system resources. I employ mathematical tools from distributed optimization and statistical learning theory.
