@@ -2,6 +2,7 @@
 ---
 
 @article{rodioFederatedLearningHeterogeneous2024,
+  abbr={Journal},
   title = {Federated {{Learning Under Heterogeneous}} and {{Correlated Client Availability}}},
   author = {Rodio, Angelo and Faticanti, Francescomaria and Marfoq, Othmane and Neglia, Giovanni and Leonardi, Emilio},
   year = {2024},
@@ -11,13 +12,18 @@
   number = {2},
   pages = {1451--1460},
   issn = {1558-2566},
+    abstract = {In Federated Learning (FL), devices-- also referred to as clients-- can exhibit heterogeneous availability patterns, often correlated over time and with other clients. This paper addresses the problem of heterogeneous and correlated client availability in FL. Our theoretical analysis is the first to demonstrate the negative impact of correlation on FL algorithms' convergence rate and highlights a trade-off between optimization error (related to convergence speed) and bias error (indicative of model quality). To optimize this trade-off, we propose Correlation-Aware FL (CA-Fed), a novel algorithm that dynamically balances the competing objectives of fast convergence and minimal model bias. CA-Fed achieves this by dynamically adjusting the aggregation weight assigned to each client and selectively excluding clients with high temporal correlation and low availability. Experimental evaluations on diverse datasets demonstrate the effectiveness of CA-Fed compared to state-of-the-art methods. Specifically, CA-Fed achieves the best trade-off between training time and test accuracy. By dynamically handling clients with high temporal correlation and low availability, CA-Fed emerges as a promising solution to mitigate the detrimental impact of correlated client availability in FL.},
   doi = {10.1109/TNET.2023.3324257},
   urldate = {2025-08-06},
-  abstract = {In Federated Learning (FL), devices-- also referred to as clients-- can exhibit heterogeneous availability patterns, often correlated over time and with other clients. This paper addresses the problem of heterogeneous and correlated client availability in FL. Our theoretical analysis is the first to demonstrate the negative impact of correlation on FL algorithms' convergence rate and highlights a trade-off between optimization error (related to convergence speed) and bias error (indicative of model quality). To optimize this trade-off, we propose Correlation-Aware FL (CA-Fed), a novel algorithm that dynamically balances the competing objectives of fast convergence and minimal model bias. CA-Fed achieves this by dynamically adjusting the aggregation weight assigned to each client and selectively excluding clients with high temporal correlation and low availability. Experimental evaluations on diverse datasets demonstrate the effectiveness of CA-Fed compared to state-of-the-art methods. Specifically, CA-Fed achieves the best trade-off between training time and test accuracy. By dynamically handling clients with high temporal correlation and low availability, CA-Fed emerges as a promising solution to mitigate the detrimental impact of correlated client availability in FL.},
+  arxiv = {2301.04632},
+  code = {https://github.com/arodio/CA-Fed},
+  supp = {https://doi.org/10.1109/TNET.2023.3324257/mm1},
+  bibtex_show,
   keywords = {Convergence,correlated client availability,Correlation,Federated learning,Markov chains,Markov processes,Servers,Smart phones,Training}
 }
 
 @inproceedings{rodioFederatedLearningHeterogeneous2023,
+  abbr={Conference},
   title = {Federated {{Learning}} under {{Heterogeneous}} and {{Correlated Client Availability}}},
   booktitle = {{{IEEE INFOCOM}} 2023 - {{IEEE Conference}} on {{Computer Communications}}},
   author = {Rodio, Angelo and Faticanti, Francescomaria and Marfoq, Othmane and Neglia, Giovanni and Leonardi, Emilio},
@@ -27,12 +33,16 @@
   issn = {2641-9874},
   doi = {10.1109/INFOCOM53939.2023.10228876},
   urldate = {2025-08-06},
+  arxiv = {2301.04632},
+  code = {https://github.com/arodio/CA-Fed},
+  slides = {talk_infocom_2023.pdf},
   abstract = {The enormous amount of data produced by mobile and IoT devices has motivated the development of federated learning (FL), a framework allowing such devices (or clients) to collaboratively train machine learning models without sharing their local data. FL algorithms (like FedAvg) iteratively aggregate model updates computed by clients on their own datasets. Clients may exhibit different levels of participation, often correlated over time and with other clients. This paper presents the first convergence analysis for a FedAvg-like FL algorithm under heterogeneous and correlated client availability. Our analysis highlights how correlation adversely affects the algorithm's convergence rate and how the aggregation strategy can alleviate this effect at the cost of steering training toward a biased model. Guided by the theoretical analysis, we propose CA-Fed, a new FL algorithm that tries to balance the conflicting goals of maximizing convergence speed and minimizing model bias. To this purpose, CA-Fed dynamically adapts the weight given to each client and may ignore clients with low availability and large correlation. Our experimental results show that CA-Fed achieves higher time-average accuracy and a lower standard deviation than state-of-the-art AdaFed and F3AST, both on synthetic and real datasets.},
   keywords = {Adaptation models,Analytical models,Computational modeling,Correlation,Distributed Optimization,Federated learning,Federated Learning,Machine learning algorithms,Training},
   file = {/home/angro77/Zotero/storage/IEVQDQFM/Rodio et al. - 2023 - Federated Learning under Heterogeneous and Correlated Client Availability.pdf}
 }
 
 @inproceedings{rodioFederatedLearningPacket2023,
+  abbr={Conference},
   title = {Federated {{Learning}} with {{Packet Losses}}},
   booktitle = {2023 26th {{International Symposium}} on {{Wireless Personal Multimedia Communications}} ({{WPMC}})},
   author = {Rodio, Angelo and Neglia, Giovanni and Busacca, Fabio and Mangione, Stefano and Palazzo, Sergio and Restuccia, Francesco and Tinnirello, Ilenia},
@@ -42,28 +52,33 @@
   issn = {1882-5621},
   doi = {10.1109/WPMC59531.2023.10338845},
   urldate = {2025-08-06},
+  code = {https://github.com/arodio/UPGA-PL},
+  slides = {talk_wpmc_2023.pdf},
   abstract = {This paper tackles the problem of training Federated Learning (FL) algorithms over real-world wireless networks with packet losses. Lossy communication channels between the orchestrating server and the clients affect the convergence of FL training as well as the quality of the learned model. Although many previous works investigated how to mitigate the adverse effects of packet losses, this paper demonstrates that FL algorithms over asymmetric lossy channels can still learn the optimal model, the same model that would have been trained in a lossless scenario by classic FL algorithms like FedAvg. Convergence to the optimum only requires slight changes to FedAvg: i) while FedAvg computes a new global model by averaging the received clients' models, our algorithm, UPGA-PL, updates the global model by a pseudo-gradient step; ii) UPGA-PL accounts for the potentially heterogeneous packet losses experienced by the clients to unbias the pseudo-gradient step. Still, UPGA-PL maintains the same computational and communication complexity as FedAvg. In our experiments, UPGA-PL not only outperforms existing state-of-the-art solutions for lossy channels (by more than 5 percentage points on test accuracy) but also matches FedAvg's performance in lossless scenarios after less than 150 communication rounds.},
   keywords = {Communication channels,Computational modeling,Federated learning,Federated Learning,Packet loss,Packet Loss,Training,Wireless networks,Wireless sensor networks},
   file = {/home/angro77/Zotero/storage/XTPVJ6QB/Rodio et al. - 2023 - Federated Learning with Packet Losses.pdf}
 }
 
 @article{rodioManyFacetsVariance2025,
+  abbr={Conference},
   title = {The {{Many Facets}} of {{Variance Reduction}} in {{Federated Learning}}},
   author = {Rodio, Angelo},
   year = {2025},
   month = mar,
-  journal = {SIGMETRICS Perform. Eval. Rev.},
+  journal = {SIGMETRICS Performance Evaluation Review},
   volume = {52},
   number = {4},
   pages = {11--12},
   issn = {0163-5999},
   doi = {10.1145/3725536.3725542},
+  poster = {poster_sigmetrics_2024.pdf},
   urldate = {2025-08-06},
   abstract = {Federated Learning (FL) enables clients (mobile or IoT devices) to train a shared machine learning model coordinated by a central server while keeping their data local, addressing communication and privacy concerns. In the FedAvg algorithm [2], clients perform multiple local stochastic gradient descent (SGD) steps on their datasets and send their model updates to the server. The server then aggregates these client updates to produce the new global model and sends this back to the clients for the subsequent iteration.},
   file = {/home/angro77/Zotero/storage/VPE2EY2Y/Rodio - 2025 - The Many Facets of Variance Reduction in Federated Learning.pdf}
 }
 
 @incollection{rodioFedStaleLeveragingStale2024,
+  abbr={Conference},
   title = {{{FedStale}}: Leveraging {{Stale Updates}} in {{Federated Learning}}},
   shorttitle = {{{FedStale}}},
   booktitle = {{{ECAI}} 2024},
@@ -72,12 +87,16 @@
   pages = {3071--3078},
   publisher = {IOS Press},
   doi = {10.3233/FAIA240849},
+  arxiv = {2405.04171},
+  code = {https://github.com/arodio/FedStale},
+  slides = {talk_ecai_2024.pdf},
   urldate = {2025-08-06},
   langid = {english},
   file = {/home/angro77/Zotero/storage/URIW8VR2/FAIA240849.html}
 }
 
 @misc{kaplanFederatedLearningCollaborative2024,
+  abbr={Preprint},
   title = {Federated {{Learning}} for {{Collaborative Inference Systems}}: {{The Case}} of {{Early Exit Networks}}},
   shorttitle = {Federated {{Learning}} for {{Collaborative Inference Systems}}},
   author = {Kaplan, Caelin and Rodio, Angelo and Salem, Tareq Si and Xu, Chuan and Neglia, Giovanni},
@@ -87,7 +106,8 @@
   eprint = {2405.04249},
   primaryclass = {cs},
   publisher = {arXiv},
-  doi = {10.48550/arXiv.2405.04249},
+  arxiv = {2405.04249},
+  code = {https://github.com/arodio/FedCIS},
   urldate = {2025-08-06},
   abstract = {As Internet of Things (IoT) technology advances, end devices like sensors and smartphones are progressively equipped with AI models tailored to their local memory and computational constraints. Local inference reduces communication costs and latency; however, these smaller models typically underperform compared to more sophisticated models deployed on edge servers or in the cloud. Cooperative Inference Systems (CISs) address this performance trade-off by enabling smaller devices to offload part of their inference tasks to more capable devices. These systems often deploy hierarchical models that share numerous parameters, exemplified by Deep Neural Networks (DNNs) that utilize strategies like early exits or ordered dropout. In such instances, Federated Learning (FL) may be employed to jointly train the models within a CIS. Yet, traditional training methods have overlooked the operational dynamics of CISs during inference, particularly the potential high heterogeneity in serving rates across clients. To address this gap, we propose a novel FL approach designed explicitly for use in CISs that accounts for these variations in serving rates. Our framework not only offers rigorous theoretical guarantees, but also surpasses state-of-the-art (SOTA) training algorithms for CISs, especially in scenarios where inference request rates or data availability are uneven among clients.},
   archiveprefix = {arXiv},
@@ -96,6 +116,7 @@
 }
 
 @phdthesis{rodioClientHeterogeneityFederated2024,
+  abbr={PhD Thesis},
   title = {Client Heterogeneity in Federated Learning Systems},
   author = {Rodio, Angelo},
   year = {2024},
@@ -108,6 +129,7 @@
 }
 
 @misc{rodioOptimizingPrivacyUtilityTradeoff2025,
+  abbr={Preprint},
   title = {Optimizing {{Privacy-Utility Trade-off}} in {{Decentralized Learning}} with {{Generalized Correlated Noise}}},
   author = {Rodio, Angelo and Chen, Zheng and Larsson, Erik G.},
   year = {2025},
@@ -116,7 +138,8 @@
   eprint = {2501.14644},
   primaryclass = {cs},
   publisher = {arXiv},
-  doi = {10.48550/arXiv.2501.14644},
+  arxiv = {2501.14644},
+  code = {https://github.com/arodio/WhisperDSGD},
   urldate = {2025-08-06},
   abstract = {Decentralized learning enables distributed agents to collaboratively train a shared machine learning model without a central server, through local computation and peer-to-peer communication. Although each agent retains its dataset locally, sharing local models can still expose private information about the local training datasets to adversaries. To mitigate privacy attacks, a common strategy is to inject random artificial noise at each agent before exchanging local models between neighbors. However, this often leads to utility degradation due to the negative effects of cumulated artificial noise on the learning algorithm. In this work, we introduce CorN-DSGD, a novel covariance-based framework for generating correlated privacy noise across agents, which unifies several state-of-the-art methods as special cases. By leveraging network topology and mixing weights, CorN-DSGD optimizes the noise covariance to achieve network-wide noise cancellation. Experimental results show that CorN-DSGD cancels more noise than existing pairwise correlation schemes, improving model performance under formal privacy guarantees.},
   archiveprefix = {arXiv},
@@ -126,9 +149,9 @@
 
 
 
-#@string{aps = {American Physical Society,}}
+%@string{aps = {American Physical Society,}}
 
-#@book{einstein1920relativity,
+%@book{einstein1920relativity,
   title={Relativity: the Special and General Theory},
   author={Einstein, Albert},
   year={1920},
@@ -136,7 +159,7 @@
   html={relativity.html}
 }
 
-#@book{einstein1956investigations,
+%@book{einstein1956investigations,
   bibtex_show={true},
   title={Investigations on the Theory of the Brownian Movement},
   author={Einstein, Albert},
@@ -145,7 +168,7 @@
   preview={brownian-motion.gif}
 }
 
-#@article{einstein1950meaning,
+%@article{einstein1950meaning,
   abbr={AJP},
   bibtex_show={true},
   title={The meaning of relativity},
@@ -158,7 +181,7 @@
   publisher={American Association of Physics Teachers}
 }
 
-#@article{PhysRev.47.777,
+%@article{PhysRev.47.777,
   abbr={PhysRev},
   title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
   author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
@@ -186,7 +209,7 @@
   inspirehep_id = {3255}
 }
 
-#@article{einstein1905molekularkinetischen,
+%@article{einstein1905molekularkinetischen,
   title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
   author={Einstein, A.},
   journal={Annalen der physik},
@@ -197,7 +220,7 @@
   publisher={Wiley Online Library}
 }
 
-#@article{einstein1905movement,
+%@article{einstein1905movement,
   abbr={Ann. Phys.},
   title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
   author={Einstein, A.},
@@ -207,13 +230,13 @@
   year={1905}
 }
 
-#@article{einstein1905electrodynamics,
+%@article{einstein1905electrodynamics,
   title={On the electrodynamics of moving bodies},
   author={Einstein, A.},
   year={1905}
 }
 
-#@Article{einstein1905photoelectriceffect,
+%@Article{einstein1905photoelectriceffect,
   bibtex_show={true},
   abbr={Ann. Phys.},
   title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
@@ -229,7 +252,7 @@
   award_name={Nobel Prize}
 }
 
-#@book{przibram1967letters,
+%@book{przibram1967letters,
   bibtex_show={true},
   title={Letters on wave mechanics},
   author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
