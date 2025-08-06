@@ -428,7 +428,7 @@ ninja.data = [{
           title: 'Paper accepted at WPMC 2023, University of South Florida, Tampa, USA.',
           description: "",
           section: "News",},{id: "news-presented-a-poster-at-acm-sigmetrics-2024-venice-italy",
-          title: '📄 Presented a poster at ACM SIGMETRICS 2024, Venice, Italy.',
+          title: 'Presented a poster at ACM SIGMETRICS 2024, Venice, Italy.',
           description: "",
           section: "News",},{id: "news-defended-my-phd-thesis-on-client-heterogeneity-in-federated-learning-systems-at-inria-france-congrats",
           title: '🎓 Defended my PhD thesis on Client Heterogeneity in Federated Learning Systems at...',
