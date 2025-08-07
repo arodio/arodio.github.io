@@ -49,15 +49,15 @@
       "institution": "Centre Inria d'Université Côte d'Azur",
       "location": "France",
       "url": "https://team.inria.fr/neo/team-members/",
-      "area": "Computer Science",
-      "studyType": "PhD",
+      "area": "Advisor: Giovanni Neglia",
+      "studyType": "PhD in Computer Science",
       "startDate": "2021-04-01",
       "endDate": "2024-07-03",
       "score": "",
       "courses": []
     },
     {
-      "institution": "Centre Inria d'Université Côte d'Azur",
+      "institution": "Université Côte d'Azur",
       "location": "Sophia Antipolis, France",
       "url": "https://team.inria.fr/neo/team-members/",
       "area": "Federated Learning",
