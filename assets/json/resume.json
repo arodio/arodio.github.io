@@ -88,6 +88,17 @@
       "endDate": "2019-08-31",
       "score": "",
       "courses": []
+    },
+    {
+      "institution": "Politecnico di Bari",
+      "location": "Italy",
+      "url": "https://poliba.coursecatalogue.cineca.it/corsi/2016/10260?codicione=0720206200800001",
+      "area": "Mentor: Gennaro Boggia",
+      "studyType": "BSc in Computer Engineering",
+      "startDate": "2014-09-15",
+      "endDate": "2018-02-28",
+      "score": "",
+      "courses": []
     }
   ],
   "awards": [
