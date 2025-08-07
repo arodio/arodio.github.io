@@ -80,7 +80,7 @@
   abbr={Conference},
   title = {{{FedStale}}: Leveraging {{Stale Updates}} in {{Federated Learning}}},
   shorttitle = {{{FedStale}}},
-  booktitle = {{{ECAI}} 2024},
+  booktitle = {{European Conference on Artificial Intelligence ({ECAI})}},
   author = {Rodio, Angelo and Neglia, Giovanni},
   year = {2024},
   pages = {3071--3078},
@@ -91,8 +91,10 @@
   slides = {talk_ecai_2024.pdf},
   urldate = {2025-08-06},
   langid = {english},
+  abstract = {Federated learning algorithms, such as FedAvg, are negatively affected by data heterogeneity and partial client participation. To mitigate the latter problem, global variance reduction methods, like FedVARP, leverage stale model updates for non-participating clients. These methods are effective under homogeneous client participation. Yet, this paper shows that, when some clients participate much less than others, aggregating updates with different levels of staleness can detrimentally affect the training process. Motivated by this observation, we introduce FedStale, a novel algorithm that updates the global model in each round through a convex combination of "fresh" updates from participating clients and "stale" updates from non-participating ones. By adjusting the weight in the convex combination, FedStale interpolates between FedAvg, which only uses fresh updates, and FedVARP, which treats fresh and stale updates equally. Our analysis of FedStale convergence yields the following novel findings: i) it integrates and extends previous FedAvg and FedVARP analyses to heterogeneous client participation; ii) it underscores how the least participating client influences convergence error; iii) it provides practical guidelines to best exploit stale updates, showing that their usefulness diminishes as data heterogeneity decreases and participation heterogeneity increases. Extensive experiments featuring diverse levels of client data and participation heterogeneity not only confirm these findings but also show that FedStale outperforms both FedAvg and FedVARP in many settings.},
   file = {/home/angro77/Zotero/storage/URIW8VR2/FAIA240849.html}
 }
+
 
 @misc{kaplanFederatedLearningCollaborative2024,
   abbr={Preprint},
@@ -120,9 +122,13 @@
   year = {2024},
   month = jul,
   urldate = {2025-08-06},
+  URL = {https://theses.hal.science/tel-04685040},
   abstract = {Federated Learning (FL) stands as a collaborative framework where clients (mobile devices) train a machine learning model under a central server's orchestration, preserving data decentralization. Client participation heterogeneity stems from varied device capabilities in hardware specifications (CPU power, memory capacity), network connectivity types (3G, 4G, 5G, WiFi), and power availability (battery levels), and it is generally beyond server control. This thesis focuses on providing a theoretical understanding of federated learning systems under heterogeneous client participation, specifically analyzing the impact of this heterogeneity on the convergence of federated learning algorithms, and proposing practical solutions for a more efficient system and resource usage.The first part of the thesis focuses on tackling challenges associated with temporal and spatial correlation in client participation, the former due to the correlated client participation dynamics over time, the latter due to the clients correlated geographic distributions. In this chapter, we first observe that the heterogeneous client participation can potentially bias the learning process. We formalize the bias-variance tradeoff induced by heterogeneous client participation by decomposing the optimization error into variance (related to convergence speed) and bias (indicative of model quality). By minimizing these two errors, we demonstrate that assigning larger aggregation weights to frequently participating clients can accelerate convergence.Moreover, we study the impact of temporal and spatial correlation in client participation through a finite-state Markov chain modeling. We show that correlation slows down convergence within a logarithmic factor related to the Markov chain's geometric mixing time. Minimizing the bias-variance tradeoff, we also find that lower aggregation weights for highly correlated clients accelerate convergence. We finally propose an algorithm, Correlation-Aware Federated Learning (CA-Fed), to optimize the bias-variance tradeoff and thus achieve faster convergence.The second part of the thesis consider more applied scenarios of lossy communication channels. Network conditions, particularly packet losses, represent a main, uncontrollable source of heterogeneity in client participation. In this chapter, challenging the conventional mitigation strategies for packet losses such as retransmission or error correction, we show that federated learning algorithms can still learn in asymmetric, lossy channels. Our proposed solution modifies traditional federated learning approaches by transmitting model updates in place of models and correcting the averaging step to account for the heterogeneity of the communication channels. Experimental results confirm that our algorithm, under lossy channels, matches the performance in ideal, lossless conditions within a limited number of communication rounds.The third part investigates leveraging variance reduction methods, specifically stale updates, to compensate for the heterogeneity in client participation. Recent research considered similar strategies to mitigate the effects of partial client participation in federated learning. These methods involve retaining the last computed, potentially stale, update for each client to replace unavailable current updates for non-participating clients. However, existing analyses rely on the assumption of uniform client participation --- restrictive in real-world scenarios. By broadening the analysis to heterogeneous client participation, we discover that convergence is significantly influenced by the least participating clients. This suggests that existing algorithms are not optimally designed for such environments, and we propose a more robust approach, FedStale, to exploit stale model updates under heterogeneous client participation.},
   langid = {english},
+  HAL_ID = {tel-04685040},
   school = {Universit{\'e} C{\^o}te d'Azur},
+  PDF = {https://theses.hal.science/tel-04685040v1/file/2024COAZ4029.pdf},
+  slides = {talk_phd_2024.pptx},
   file = {/home/angro77/Zotero/storage/TPVRTMIG/Rodio - 2024 - Client heterogeneity in federated learning systems.pdf}
 }
 
