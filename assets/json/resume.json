@@ -6,14 +6,13 @@
     "email": "angelo.rodio@liu.se",
     "phone": "+46 702534852",
     "url": "https://arodio.github.io",
-    "summary": "Postdoctoral researcher working on federated and decentralized learning, optimization and privacy in networked systems",
+    "summary": "Postdoctoral researcher working on federated and decentralized machine learning, optimization and privacy in networked systems",
     "location": {
       "address": "Campus Valla, B-huset, Entrance 29, Room 3A:469",
       "postalCode": "583 30",
       "city": "Linköping",
-      "countryCode": "SE",
-      "region": "Östergötland"
-    },
+      "countryCode": "SE"
+  },
     "profiles": [
       {
         "network": "Twitter",
