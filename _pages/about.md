@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<div style="margin-top: 12px;"></div>
+<div style="margin-top: 30px;"></div>
 
 Hej, thanks for visiting! 👋
 
