@@ -170,8 +170,8 @@
       "summary": "This paper introduces FedStale, a novel federated learning algorithm that updates the global model in each round through a convex combination of “fresh” updates from participating clients and “stale” updates from non-participating ones."
     },
     {
-      "name": "Client heterogeneity in federated learning systems",
-      "publisher": "Université Côte d'Azur",
+      "name": "Client Heterogeneity in Federated Learning Systems",
+      "publisher": "PhD Thesis, Université Côte d'Azur",
       "releaseDate": "2024-07-03",
       "url": "https://theses.hal.science/tel-04685040/",
       "summary": "This thesis focuses on providing a theoretical understanding of federated learning systems under heterogeneous client participation, analyzing the impact of this heterogeneity on the convergence of federated learning algorithms, and proposing practical solutions for a more efficient system and resource usage."
@@ -216,10 +216,11 @@
       "keywords": [
         "Federated Learning",
         "Distributed Machine Learning",
-        "Optimization",
-        "Convergence",
-        "Privacy",
-        "Energy Efficiency"
+        "Convex Optimization",
+        "Linear Algebra",
+        "Graph Theory",
+        "Information Theory",
+        "Game Theory"
       ]
     }
   ],
