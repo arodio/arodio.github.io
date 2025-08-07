@@ -61,7 +61,7 @@
       "location": "France",
       "url": "https://ubinet.univ-cotedazur.fr/node/76",
       "area": "Mentors: Arnaud Legout, Chadi Barakat",
-      "studyType": "MSc in Computer Engineering (Double Degree)",
+      "studyType": "MSc in Computer Engineering, Double Degree",
       "startDate": "2020-08-31",
       "endDate": "2019-09-14",
       "score": "",
@@ -75,6 +75,17 @@
       "studyType": "MSc in Telecommunication Engineering",
       "startDate": "2020-10-20",
       "endDate": "2018-03-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Kazan National Research Technical University",
+      "location": "Russia",
+      "url": "https://kai.ru/web/en/events/event?id=9600379",
+      "area": "",
+      "studyType": "Erasmus+ KA107",
+      "startDate": "2019-04-14",
+      "endDate": "2019-08-31",
       "score": "",
       "courses": []
     }
