@@ -55,51 +55,7 @@
       "startDate": "2021-04-01",
       "endDate": "2024-07-03",
       "score": "",
-      "courses": []
-    },
-    {
-      "institution": "Université Côte d'Azur",
-      "location": "France",
-      "url": "https://ubinet.univ-cotedazur.fr/node/76",
-      "area": "Computer Engineering (Double Degree)",
-      "studyType": "MsC",
-      "startDate": "2019-09-01",
-      "endDate": "2020-08-31",
-      "score": "Très Bien",
-      "courses": []
-    },
-    {
-      "institution": "Politecnico di Bari",
-      "location": "Italy",
-      "url": "https://www.poliba.it/it/didattica/corsi-di-laurea?course_id=10016&idCorsoCode=LM14%2F2015%2F2017",
-      "area": "Telecommunications Engineering (Double Degree)",
-      "studyType": "MsC",
-      "startDate": "2018-03-01",
-      "endDate": "2020-10-20",
-      "score": "110L",
-      "courses": []
-    },
-    {
-      "institution": "Kazan National Research Technical University",
-      "location": "Russia",
-      "url": "https://kai.ru/web/en/events/event?id=9600379",
-      "area": "Telecommunications Engineering",
-      "studyType": "ERASMUS+ KA107",
-      "startDate": "2019-04-14",
-      "endDate": "2019-08-31",
-      "score": "",
-      "courses": []
-    },
-    {
-      "institution": "Politecnico di Bari",
-      "location": "Italy",
-      "url": "https://www.poliba.it/it/didattica/corsi-di-laurea?course_id=10002&idCorsoCode=LT17%2F2013%2F2014",
-      "area": "Computer Engineering",
-      "studyType": "BsC",
-      "startDate": "2014-09-14",
-      "endDate": "2018-02-20",
-      "score": "109",
-      "courses": []
+      "courses": ["test"]
     }
   ],
   "awards": [
