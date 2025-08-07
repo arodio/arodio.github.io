@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <strong>Postdoc</strong> @ <a href='https://liu.se/en/employee/angro77'>LiU, Sweden</a> • <strong>PhD</strong> @ <a href='https://www-sop.inria.fr/members/Angelo.Rodio/'>Inria, France</a> • theory ⇄ learn ⇆ build
+subtitle: <strong>Postdoc</strong> @ <a href='https://liu.se/en/employee/angro77'>LiU, Sweden</a> • <strong>PhD</strong> @ <a href='https://www-sop.inria.fr/members/Angelo.Rodio/'>Inria, France</a> • theory ⇄ learn ⇆ implement
 
 profile:
   align: right
@@ -26,6 +26,8 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
+<div style="margin-top: 12px;"></div>
 
 Hej, thanks for visiting! 👋
 
