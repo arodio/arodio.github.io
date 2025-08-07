@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>**Postdoc** @ [LiU, Sweden](https://liu.se/en/employee/angro77) </a> • **Previously** @ [Inria, France](https://www-sop.inria.fr/members/Angelo.Rodio/) • theory ⇄ learn ⇆ build
 
 profile:
   align: right
@@ -14,7 +14,7 @@ profile:
     <p>lname: rodio</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -27,8 +27,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a post-doctoral researcher at [Linköping University, Sweden](https://liu.se/en/organisation/liu/isy/ks),  working with [Erik G. Larsson](https://liu.se/en/employee/erila39) and [Zheng Chen](https://liu.se/en/employee/zhech93) on decentralized machine learning. 
+Hej, thanks for visiting! 👋
+
+I am a post-doctoral researcher at [Linköping University, Sweden](https://liu.se/en/organisation/liu/isy/ks), working with [Erik G. Larsson](https://liu.se/en/employee/erila39) and [Zheng Chen](https://liu.se/en/employee/zhech93) on decentralized machine learning. 
 
 Previously, I completed my PhD at [Inria, France](https://team.inria.fr/neo/team-members/), working with [Giovanni Neglia](http://www-sop.inria.fr/members/Giovanni.Neglia/) on federated learning. 
 
 My research focuses on designing scalable distributed algorithms for efficient use of data and system resources. I employ mathematical tools from distributed optimization and statistical learning theory.
+
+In my spare time, I enjoy doing sports (mostly running and cycling), traveling, and going on hikes with friends and family. Also, I happened to live in Nice and do speak [French](https://www.facebook.com/groups/586584704178688/).
