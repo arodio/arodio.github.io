@@ -58,15 +58,26 @@
     },
     {
       "institution": "Université Côte d'Azur",
-      "location": "Sophia Antipolis, France",
-      "url": "https://team.inria.fr/neo/team-members/",
-      "area": "Federated Learning",
-      "studyType": "PhD",
-      "startDate": "2021-04-01",
-      "endDate": "2024-07-03",
-      "score": "",
-      "courses": ["Client Heterogeneity in Federated Learning Systems"]
-    }
+      "location": "France",
+      "url": "https://ubinet.univ-cotedazur.fr/node/76",
+      "area": "Mentors: Arnaud Legout, Chadi Barakat",
+      "studyType": "MSc in Computer Engineering (Double Degree)",
+      "startDate": "2020-08-31",
+      "endDate": "2019-09-14",
+      "score": "Très Bien",
+      "courses": []
+    },
+    {
+      "institution": "Politecnico di Bari",
+      "location": "Italy",
+      "url": "https://poliba.coursecatalogue.cineca.it/corsi/2017/10016?codicione=0720207302800001",
+      "area": "Mentor: Luigi Alfredo Grieco",
+      "studyType": "MSc in Telecommunication Engineering (Double Degree)",
+      "startDate": "2020-10-20",
+      "endDate": "2018-03-01",
+      "score": "110L",
+      "courses": []
+    },
   ],
   "awards": [
     {
