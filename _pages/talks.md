@@ -9,7 +9,7 @@ nav_order: 3
 
 ## 🎓 PhD Defense
 
-- [Talk](../assets/pdf/talk_phd_2024.pptx): **"Client heterogeneity in federated learning systems"**  
+- [Talk](https://docs.google.com/presentation/d/1RWAbhosvLWfZ5mA8jkapKzXk10fao2Ts/edit?usp=sharing&ouid=101817022771990954456&rtpof=true&sd=true): **"Client Heterogeneity in Federated Learning Systems"**  
   *Centre Inria d’Université Côte d’Azur, France*  
   July 3, 2024
 
