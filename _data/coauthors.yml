@@ -1,14 +1,14 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"neglia":
+  - firstname: ["Giovanni", "G."]
+    url: https://www-sop.inria.fr/members/Giovanni.Neglia/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"larsson":
+  - firstname: ["Erik G.", "E.", "E. G."]
+    url: https://liu.se/en/employee/erila39
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"chen":
+  - firstname: ["Zheng", "Z."]
+    url: https://liu.se/en/employee/zhech93
 
 "bach":
   - firstname: ["Johann Sebastian", "J. S."]
