@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>**Postdoc** @ [LiU, Sweden](https://liu.se/en/employee/angro77) </a> • **Previously** @ [Inria, France](https://www-sop.inria.fr/members/Angelo.Rodio/) • theory ⇄ learn ⇆ build
+subtitle: **Postdoc** @ [LiU, Sweden](https://liu.se/en/employee/angro77) • **Previously** @ [Inria, France](https://www-sop.inria.fr/members/Angelo.Rodio/) • theory ⇄ learn ⇆ build
 
 profile:
   align: right
