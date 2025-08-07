@@ -61,10 +61,10 @@
       "location": "France",
       "url": "https://ubinet.univ-cotedazur.fr/node/76",
       "area": "Mentors: Arnaud Legout, Chadi Barakat",
-      "studyType": "MSc in Computer Engineering (Double Degree)",
+      "studyType": "MSc in Computer Engineering",
       "startDate": "2020-08-31",
       "endDate": "2019-09-14",
-      "score": "Très Bien",
+      "score": "",
       "courses": []
     },
     {
@@ -72,10 +72,10 @@
       "location": "Italy",
       "url": "https://poliba.coursecatalogue.cineca.it/corsi/2017/10016?codicione=0720207302800001",
       "area": "Mentor: Luigi Alfredo Grieco",
-      "studyType": "MSc in Telecommunication Engineering (Double Degree)",
+      "studyType": "MSc in Telecommunication Engineering",
       "startDate": "2020-10-20",
       "endDate": "2018-03-01",
-      "score": "110L",
+      "score": "",
       "courses": []
     },
   ],
