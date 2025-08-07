@@ -47,14 +47,14 @@
   "education": [
     {
       "institution": "Centre Inria d'Université Côte d'Azur",
-      "location": "Sophia Antipolis, France",
+      "location": "France",
       "url": "https://team.inria.fr/neo/team-members/",
-      "area": "Federated Learning",
+      "area": "Computer Science",
       "studyType": "PhD",
       "startDate": "2021-04-01",
       "endDate": "2024-07-03",
       "score": "",
-      "courses": ["Client Heterogeneity in Federated Learning Systems"]
+      "courses": []
     },
     {
       "institution": "Centre Inria d'Université Côte d'Azur",
