@@ -6,7 +6,7 @@
     "email": "angelo.rodio@liu.se",
     "phone": "+46 702534852",
     "url": "https://arodio.github.io",
-    "summary": "Postdoctoral researcher working on federated and decentralized machine learning, optimization and privacy in networked systems",
+    "summary": "Postdoctoral researcher working on federated and decentralized learning, optimization and privacy in networked systems",
     "location": {
       "address": "Campus Valla, B-huset, Entrance 29, Room 3A:469",
       "postalCode": "583 30",
@@ -48,14 +48,14 @@
   "education": [
     {
       "institution": "Centre Inria d'Université Côte d'Azur",
-      "location": "France",
+      "location": "Sophia Antipolis, France",
       "url": "https://team.inria.fr/neo/team-members/",
       "area": "Federated Learning",
       "studyType": "PhD",
       "startDate": "2021-04-01",
       "endDate": "2024-07-03",
       "score": "",
-      "courses": ["test"]
+      "courses": ["Client Heterogeneity in Federated Learning Systems"]
     }
   ],
   "awards": [
@@ -173,11 +173,10 @@
       "keywords": [
         "Federated Learning",
         "Distributed Machine Learning",
-        "Convex Optimization",
-        "Linear Algebra",
-        "Graph Theory",
-        "Information Theory",
-        "Game Theory",
+        "Optimization",
+        "Convergence",
+        "Privacy",
+        "Energy Efficiency"
       ]
     }
   ],
