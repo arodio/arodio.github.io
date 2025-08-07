@@ -55,7 +55,7 @@
       "startDate": "2021-04-01",
       "endDate": "2024-07-03",
       "score": "",
-      "courses": [""]
+      "courses": []
     },
     {
       "institution": "Université Côte d'Azur",
@@ -66,7 +66,7 @@
       "startDate": "2019-09-01",
       "endDate": "2020-08-31",
       "score": "Très Bien",
-      "courses": [""]
+      "courses": []
     },
     {
       "institution": "Politecnico di Bari",
@@ -77,7 +77,7 @@
       "startDate": "2018-03-01",
       "endDate": "2020-10-20",
       "score": "110L",
-      "courses": [""]
+      "courses": []
     },
     {
       "institution": "Kazan National Research Technical University",
@@ -88,7 +88,7 @@
       "startDate": "2019-04-14",
       "endDate": "2019-08-31",
       "score": "",
-      "courses": [""]
+      "courses": []
     },
     {
       "institution": "Politecnico di Bari",
@@ -99,7 +99,7 @@
       "startDate": "2014-09-14",
       "endDate": "2018-02-20",
       "score": "109",
-      "courses": [""]
+      "courses": []
     }
   ],
   "awards": [
