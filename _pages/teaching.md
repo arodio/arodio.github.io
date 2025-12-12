@@ -7,7 +7,6 @@ nav: true
 nav_order: 4
 ---
 
-Courses  
 I have been teaching university courses at Master level, in France and in Sweden.
 
 Master level (36 hours)
