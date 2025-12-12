@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-📄 Paper accepted at [European Wireless 20255](https://ew2025.european-wireless.org/).
+📄 Paper accepted at [European Wireless 2025](https://ew2025.european-wireless.org/).
