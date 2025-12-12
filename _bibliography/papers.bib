@@ -1,6 +1,39 @@
 ---
 ---
 
+@inproceedings{rodioUnifiedConvergenceSemiDecentralized2026,
+  abbr={Conference},
+  title = {A {{Unified}} {{Convergence}} {{Analysis}} for {{Semi-Decentralized}} {{Learning}}: {{Sampled-to-Sampled}} vs. {{Sampled-to-All}} {{Communication}}},
+  booktitle = {Proceedings of the {{AAAI}} Conference on Artificial Intelligence},
+  author = {Rodio, Angelo and Neglia, Giovanni and Chen, Zheng and Larsson, Erik G.},
+  year = {2026},
+  month = jan,
+  doi = {10.48550/arXiv.2511.11560},
+  urldate = {2025-12-12},
+  arxiv = {2511.11560},
+  pdf = {https://arxiv.org/pdf/2511.11560.pdf},
+  code = {https://github.com/arodio/semidec},
+  url = {https://arxiv.org/abs/2511.11560},
+  abstract = {In semi-decentralized federated learning, devices primarily rely on device-to-device communication but occasionally interact with a central server. Periodically, a sampled subset of devices uploads their local models to the server, which computes an aggregate model. The server can then either (i) share this aggregate model only with the sampled clients (sampled-to-sampled, S2S) or (ii) broadcast it to all clients (sampled-to-all, S2A). Despite their practical significance, a rigorous theoretical and empirical comparison of these two strategies remains absent. We address this gap by analyzing S2S and S2A within a unified convergence framework that accounts for key system parameters: sampling rate, server aggregation frequency, and network connectivity. Our results, both analytical and experimental, reveal distinct regimes where one strategy outperforms the other, depending primarily on the degree of data heterogeneity across devices. These insights lead to concrete design guidelines for practical semi-decentralized FL deployments.},
+}
+
+@inproceedings{arputharajGreenFederatedLearningCarbonAware2025,
+  abbr={Conference},
+  title = {Green {{Federated Learning}} via {{Carbon-Aware}} {{Client}} and {{Time Slot}} {{Scheduling}}},
+  booktitle = {Proceedings of the {{IEEE/ACM}} International Symposium on {{Modeling}}, {{Analysis}}, and {{Simulation}} on {{Computer}} and {{Telecommunication Systems}} ({{MASCOTS}} 2025)},
+  author = {Arputharaj, Daniel Richards and Rodriguez, Charlotte and Rodio, Angelo and Neglia, Giovanni},
+  year = {2025},
+  month = oct,
+  doi = {10.48550/arXiv.2509.08980},
+  urldate = {2025-12-12},
+  arxiv = {2509.08980},
+  pdf = {https://arxiv.org/pdf/2509.08980.pdf},
+  url = {https://arxiv.org/abs/2509.08980},
+  code = {https://github.com/chrdz/GreenFL},
+  abstract = {Training large-scale machine learning models incurs substantial carbon emissions. Federated Learning (FL), by distributing computation across geographically dispersed clients, offers a natural framework to leverage regional and temporal variations in Carbon Intensity (CI). This paper investigates how to reduce emissions in FL through carbon-aware client selection and training scheduling. We first quantify the emission savings of a carbon-aware scheduling policy that leverages slack time -- permitting a modest extension of the training duration so that clients can defer local training rounds to lower-carbon periods. We then examine the performance trade-offs of such scheduling which stem from statistical heterogeneity among clients, selection bias in participation, and temporal correlation in model updates. To leverage these trade-offs, we construct a carbon-aware scheduler that integrates slack time, $\alpha$-fair carbon allocation, and a global fine-tuning phase. Experiments on real-world CI data show that our scheduler outperforms slack-agnostic baselines, achieving higher model accuracy across a wide range of carbon budgets, with especially strong gains under tight carbon constraints.},
+  comments = {Accepted at MASCOTS 2025. Available as an arXiv preprint.}
+}
+
 @article{rodioFederatedLearningHeterogeneous2024,
   abbr={Journal},
   title = {Federated {{Learning Under Heterogeneous}} and {{Correlated Client Availability}}},
