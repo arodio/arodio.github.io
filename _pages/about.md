@@ -37,4 +37,4 @@ Previously, I completed my PhD at [Inria, France](https://team.inria.fr/neo/team
 
 My research focuses on designing scalable distributed algorithms for efficient use of data and system resources. I employ mathematical tools from distributed optimization and statistical learning theory.
 
-In my spare time, I enjoy doing sports (mostly running and cycling), traveling, and going on hikes with friends and family. Also, I happened to live in Nice and do speak [French](https://www.facebook.com/groups/586584704178688/).
+In my spare time, I enjoy doing sports (mostly running and cycling), traveling, and going on hikes with friends and family. Also, I have lived in Nice and do speak [French](https://www.facebook.com/groups/586584704178688/).
