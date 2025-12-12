@@ -9,11 +9,11 @@ nav_order: 4
 
 I have been teaching university courses at Master level, in France and in Sweden.
 
-Master level (36 hours)
+**Master level (36 hours)**
 
 🗓️ 2024–2025
 
-**[Distributed Information Processing and Machine Learning](https://studieinfo.liu.se/en/kurs/TSKS38/ht-2025)**
+**[Distributed Information Processing and Machine Learning](https://studieinfo.liu.se/en/kurs/TSKS38/ht-2025)**  
     12h, Tutorial Assistant, Linköping University, Sweden. Taught in English.
 
 🗓️ 2023–2024
