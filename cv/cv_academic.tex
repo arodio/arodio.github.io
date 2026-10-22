@@ -67,15 +67,14 @@
 \newcommand{\doi}[1]{\href{https://doi.org/#1}{\small\color{accent}\nolinkurl{doi:#1}}}
 \newcommand{\arxiv}[1]{\href{https://arxiv.org/abs/#1}{\small\color{accent}arXiv:#1}}
 
-% numbered publication list, numbered in reverse order inside each block
+% publication lists share one counter, so numbering runs [1], [2], ... across all blocks
 \newcounter{pubno}
-\newenvironment{publist}[1]{%
-  \setcounter{pubno}{#1}%
+\newenvironment{publist}{%
   \begin{list}{\small\color{muted}[\arabic{pubno}]}{%
     \setlength{\leftmargin}{2.8em}\setlength{\labelwidth}{2.4em}\setlength{\labelsep}{0.4em}%
     \setlength{\itemsep}{0.28em}\setlength{\topsep}{0.1em}\setlength{\parsep}{0pt}}}%
   {\end{list}}
-\newcommand{\pub}{\item\addtocounter{pubno}{-1}}
+\newcommand{\pub}{\stepcounter{pubno}\item}
 
 \begin{document}
 
@@ -83,7 +82,7 @@
 \begin{minipage}[t]{0.78\linewidth}
   \vspace{0pt}
   {\sffamily\fontsize{24}{28}\selectfont\bfseries\color{accent}Angelo Rodio}\\[0.35em]
-  {\large Postdoctoral Researcher in Decentralized Machine Learning}\\[0.15em]
+  {\large Postdoctoral Researcher}\\[0.15em]
   Department of Electrical Engineering (ISY), Linköping University, Sweden\\[0.55em]
   {\small
   \faMapMarker*\ Campus Valla, B-huset, Entrance 29, Office 3A:469, 583\,30 Linköping, Sweden\\[0.12em]
@@ -102,17 +101,22 @@
 
 % ==================== Research ====================
 \section{Research interests}
-Decentralized and federated learning over networks: convergence theory, communication design, privacy, and energy efficiency.
+Decentralized machine learning over networks: convergence theory, communication design, privacy, and energy efficiency.
 Methods: convex and non-convex optimization, linear algebra, graph theory, stochastic modeling, and statistical learning theory.
+
+% ==================== Qualifications ====================
+\section{Academic qualifications}
+\entry{Mar 2026}{Qualification aux fonctions de Maître de conférences}{France}
+  {National qualification for associate professor positions, CNU Section 27 (Computer Science).}
 
 % ==================== Positions ====================
 \section{Positions}
 \entry{Sep 2024 -- present}{Postdoctoral Researcher}{Linköping University, Sweden}
-  {Division of Communication Systems, Department of Electrical Engineering. Hosts: Prof.\ Erik G.\ Larsson and Assoc.\ Prof.\ Zheng Chen.}
+  {Division of Communication Systems. Hosts: Prof.\ Erik G.\ Larsson and Assoc.\ Prof.\ Zheng Chen.}
 \entry{Jul -- Sep 2026}{Visiting Researcher}{Nanyang Technological University (NTU), Singapore}
-  {College of Computing and Data Science. Host: Assoc.\ Prof.\ Chee Wei Tan. Funded by my Vinnova mobility grant (project MADELEINE).}
+  {College of Computing and Data Science. Host: Assoc.\ Prof.\ Chee Wei Tan. Funded by Vinnova (project MADELEINE, ref.\ 2026-01731, SEK\,500,000).}
 \entry{Sep 2020 -- Mar 2021}{Telecommunications Engineer}{TIM S.p.A., Rome, Italy}
-  {Technical consulting, implementation and integration support on a cloud platform.}
+  {Consulting and integration support for a cloud platform.}
 
 % ==================== Education ====================
 \section{Education}
@@ -121,21 +125,18 @@ Methods: convex and non-convex optimization, linear algebra, graph theory, stoch
    Supervisors: Giovanni Neglia and Alain Jean-Marie.
    Reviewers: H.\ Vincent Poor (Princeton University) and Michele Rossi (University of Padova).
    Funded by a 3IA Côte d'Azur doctoral fellowship.}
-\entry{Sep 2019 -- Aug 2020}{MSc in Computer Science (double degree)}{Université Côte d'Azur, France}
-  {Grade: \textit{Très bien}. Thesis on Wi-Fi fingerprint indoor localization for smartphones, at Inria (supervisors: Arnaud Legout and Chadi Barakat).}
+\entry{Sep 2019 -- Aug 2020}{MSc in Computer Engineering (double degree)}{Université Côte d'Azur, France}
+  {Grade: \textit{Très bien}. Thesis at Inria on Wi-Fi fingerprint indoor localization for smartphones (supervisors: Arnaud Legout and Chadi Barakat).}
 \entry{Oct 2018 -- Sep 2020}{MSc in Telecommunications Engineering}{Politecnico di Bari, Italy}
   {Grade: 110/110 \textit{cum laude}. Supervisor: Luigi Alfredo Grieco.}
-\entry{Sep 2014 -- Feb 2018}{BSc in Computer Science}{Politecnico di Bari, Italy}
+\entry{Sep 2014 -- Feb 2018}{BSc in Computer Engineering}{Politecnico di Bari, Italy}
   {Grade: 109/110. Thesis on the performance of nanoscale communication systems (supervisors: Giuseppe Piro and Gennaro Boggia).}
-
-\entry{2026}{Qualification aux fonctions de Maître de conférences}{France}
-  {National qualification for associate professor positions, CNU Section 27 (Computer Science).}
 
 % ==================== Grants ====================
 \section{Grants and awards}
-\dated{2026}{\textbf{Vinnova research grant}, call \textit{Individual mobility within 6G for collaborations with the USA and Singapore}.
-  Project MADELEINE: \textit{Massive Decentralised Learning in the Network Edge} (ref.\ 2026-01731), SEK\,468,003.
-  Sole applicant and project leader; funds a research stay at NTU Singapore and a new LiU--NTU collaboration.}
+\dated{2026}{\textbf{Vinnova mobility grant}, SEK\,500,000, for the project MADELEINE: \textit{Massive Decentralised Learning in the Network Edge} (ref.\ 2026-01731).
+  Call: \textit{Individual mobility within 6G for collaborations with the USA and Singapore}.
+  Sole applicant and project leader. The grant funded a research stay at NTU Singapore and started a new collaboration between LiU and NTU.}
 \dated{2025}{\textbf{IEEE Information Theory Society travel grant}, IEEE ITW 2025.}
 \dated{2024}{\textbf{ACM SIGMETRICS student travel grant}, ACM SIGMETRICS 2024.}
 \dated{2021}{\textbf{3IA Côte d'Azur doctoral fellowship} (PhD funding).}
@@ -146,7 +147,7 @@ Methods: convex and non-convex optimization, linear algebra, graph theory, stoch
 
 \vspace{0.4em}
 \textbf{Journal articles}
-\begin{publist}{4}
+\begin{publist}
   \pub D.\,R.~Arputharaj, C.~Rodriguez, \me, G.~Neglia.
     Carbon-Aware Client and Time Scheduling for Green Federated Learning.
     \venue{Performance Evaluation}, art.\ 102597, 2026. \doi{10.1016/j.peva.2026.102597}
@@ -159,7 +160,7 @@ Methods: convex and non-convex optimization, linear algebra, graph theory, stoch
 \end{publist}
 
 \textbf{Conference papers}
-\begin{publist}{9}
+\begin{publist}
   \pub \me, G.~Neglia, Z.~Chen, E.\,G.~Larsson.
     A Unified Convergence Analysis for Semi-Decentralized Learning: Sampled-to-Sampled vs.\ Sampled-to-All Communication.
     \venue{AAAI Conference on Artificial Intelligence (AAAI)}, 2026. \textbf{Oral presentation.} \doi{10.1609/aaai.v40i30.39705}
@@ -187,25 +188,25 @@ Methods: convex and non-convex optimization, linear algebra, graph theory, stoch
 \end{publist}
 
 \textbf{Under review}
-\begin{publist}{2}
+\begin{publist}
   \pub D.~Pérez~Herrera, \me, Z.~Chen, E.\,G.~Larsson.
     Heterogeneity-Aware Topology and Mixing Matrix Design for Decentralized Learning.
     Submitted to \venue{IEEE Transactions on Signal and Information Processing over Networks}.
 \end{publist}
 
 \textbf{PhD thesis}
-\begin{publist}{1}
+\begin{publist}
   \pub \me. Client Heterogeneity in Federated Learning Systems. PhD thesis, Université Côte d'Azur, 2024.
     \href{https://theses.hal.science/tel-04685040}{\small\color{accent}HAL: tel-04685040}
 \end{publist}
 
 % ==================== Teaching ====================
 \section{Teaching}
-{\small\color{muted}Master's level, in English, in Sweden and France: 79 hours in total.}\par\vspace{0.4em}
-\entry{Fall 2026}{Distributed Information Processing and Machine Learning (TSKS38)}{Linköping University}
-  {28 h: 12 h of tutorials and 16 h of labs (with Adrian Edin).}
-\entry{Fall 2025}{Distributed Information Processing and Machine Learning (TSKS38)}{Linköping University}
-  {12 h of tutorials; prepared the problems and solutions, and graded the exams.}
+{\small\color{muted}79 hours at Master's level, taught in English in Sweden and France.}\par\vspace{0.4em}
+\entry{2026}{Distributed Information Processing and Machine Learning (TSKS38)}{Linköping University}
+  {28 h: 12 h of tutorials and 16 h of labs (with A.~Edin).}
+\entry{2025}{Distributed Information Processing and Machine Learning (TSKS38)}{Linköping University}
+  {12 h of tutorials. Prepared the problems and solutions, and graded the exams.}
 \entry{2022 -- 2024}{Federated Learning and Data Privacy}{Université Côte d'Azur (M2 DS4H)}
   {12 h of labs per year (2022--23 and 2023--24, including 3 h co-taught with C.~Xu).}
 \entry{2021 -- 2022}{Optimization for Machine Learning}{Université Côte d'Azur (M1 DS4H)}

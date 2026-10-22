@@ -39,7 +39,7 @@
       "startDate": "2024-09-15",
       "summary": "Department of Electrical Engineering (ISY), Division of Communication Systems. Hosts: Erik G. Larsson and Zheng Chen.",
       "highlights": [
-        "Teaching: Distributed Information Processing and Machine Learning (TSKS38), 12h in Fall 2025 and 28h in Fall 2026.",
+        "Teaching: Distributed Information Processing and Machine Learning (TSKS38), 12h in 2025 and 28h in 2026.",
         "Supervision: MSc theses of Mehran Mamivand and Camilla Samuelsson (2026).",
         "Session chair at AAAI 2026 and IEEE ITW 2025."
       ]
@@ -50,7 +50,7 @@
       "url": "https://dr.ntu.edu.sg/entities/person/Chee-Wei-Tan",
       "startDate": "2026-07-01",
       "endDate": "2026-09-28",
-      "summary": "College of Computing and Data Science. Host: Chee Wei Tan. Funded by a Vinnova mobility grant (project MADELEINE).",
+      "summary": "College of Computing and Data Science. Host: Chee Wei Tan. Funded by Vinnova (project MADELEINE, ref. 2026-01731, SEK 500,000).",
       "highlights": []
     },
     {
@@ -80,7 +80,7 @@
       "location": "France",
       "url": "https://ubinet.univ-cotedazur.fr/node/76",
       "area": "Grade: Très bien. Mentors: Arnaud Legout, Chadi Barakat",
-      "studyType": "MSc in Computer Science, Double Degree",
+      "studyType": "MSc in Computer Engineering, Double Degree",
       "startDate": "2019-09-01",
       "endDate": "2020-08-31",
       "score": "",
@@ -102,7 +102,7 @@
       "location": "Italy",
       "url": "https://poliba.coursecatalogue.cineca.it/corsi/2016/10260?codicione=0720206200800001",
       "area": "Grade: 109/110. Mentors: Giuseppe Piro, Gennaro Boggia",
-      "studyType": "BSc in Computer Science",
+      "studyType": "BSc in Computer Engineering",
       "startDate": "2014-09-15",
       "endDate": "2018-02-28",
       "score": "",
@@ -111,11 +111,11 @@
   ],
   "awards": [
     {
-      "title": "Vinnova research grant (SEK 468,003)",
+      "title": "Vinnova mobility grant (SEK 500,000)",
       "date": "2026-06",
       "awarder": "Vinnova, Sweden",
       "url": "https://www.vinnova.se/en/calls-for-proposals/utlysning-2024-01247/individual-mobility-within-6g-for-2026-01013",
-      "summary": "Project MADELEINE: Massive Decentralised Learning in the Network Edge (call: Individual mobility within 6G for collaborations with the USA and Singapore). Sole applicant and project leader."
+      "summary": "Project MADELEINE: Massive Decentralised Learning in the Network Edge (ref. 2026-01731), call: Individual mobility within 6G for collaborations with the USA and Singapore. Sole applicant and project leader."
     },
     {
       "title": "IEEE Information Theory Society Travel Grant",
