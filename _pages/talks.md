@@ -15,6 +15,22 @@ nav_order: 3
 
 ---
 
+## 🗓️ 2026
+
+- Talk: **"A Unified Convergence Analysis for Semi-Decentralized Learning: Sampled-to-Sampled vs. Sampled-to-All Communication"**  
+  _[AAAI 2026](https://aaai.org/conference/aaai/aaai-26/)_ (oral presentation), Singapore  
+  January 20–27, 2026
+
+---
+
+## 🗓️ 2025
+
+- Talk: **"Optimizing Privacy-Utility Trade-off in Decentralized Learning with Generalized Correlated Noise"**  
+  _[IEEE ITW 2025](https://www.ieee-itw2025.org/)_, Sydney, Australia  
+  September 29 – October 3, 2025
+
+---
+
 ## 🗓️ 2024
 
 - [Talk](../assets/pdf/talk_ecai_2024.pptx): **"FedStale: Leveraging Stale Client Updates in Federated Learning"**  
