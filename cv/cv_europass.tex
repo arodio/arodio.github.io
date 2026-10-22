@@ -1,0 +1,187 @@
+% !TeX program = pdflatex
+% Europass-style CV of Angelo Rodio (updated October 2026).
+% Requires the EuropeCV class (CTAN: europecv), included in TeX Live.
+% Build: latexmk -pdf cv_europass.tex
+
+\documentclass[11pt,a4paper,helvetica,english]{europecv}
+
+% -------------------- Language / typography --------------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{microtype}
+
+% -------------------- Page layout / links --------------------
+\usepackage[a4paper,top=1.6cm,bottom=2.0cm,left=1.5cm,right=1.5cm]{geometry}
+\usepackage{xurl}
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+\urlstyle{same}
+\usepackage{graphicx}
+
+% -------------------- Compact lists --------------------
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=1.2em,itemsep=0.15em,topsep=0.2em}
+\setlist[enumerate]{leftmargin=1.2em,itemsep=0.2em,topsep=0.2em}
+
+% -------------------- Placeholders --------------------
+\newcommand{\ToComplete}[1]{\textcolor{red}{[To complete: #1]}}
+\usepackage{xcolor}
+
+% ==================== EuropeCV information ====================
+\ecvname{Angelo Rodio}
+\ecvfootername{Angelo Rodio}
+\ecvaddress{Campus Valla, B-huset, Entrance 29, Office 3A:469 \newline 583 30 Linköping, Sweden}
+\ecvtelephone{+46 76-447 68 29}
+\ecvemail{\href{mailto:a.rodio@yahoo.com}{a.rodio@yahoo.com}; \href{mailto:angelo.rodio@liu.se}{angelo.rodio@liu.se}}
+\ecvhomepage{\url{https://arodio.github.io/}; \url{https://liu.se/en/employee/angro77}}
+\ecvnationality{Italian}
+\ecvdateofbirth{6 July 1995 (born in Bari, Italy)}
+\ecvpicture[height=3cm]{photo.jpeg}
+
+% Optional
+% \ecvgender{Male}
+
+\begin{document}
+\begin{europecv}
+
+\ecvpersonalinfo
+
+% =========================================================
+
+\ecvitem{References}{\textbf{Erik G. Larsson} --- Full Professor and Head of the Communication Systems Division, Department of Electrical Engineering, Linköping University (Sweden). Tel. +46(0)13-28\,13\,12; \href{mailto:erik.g.larsson@liu.se}{erik.g.larsson@liu.se}.
+
+\smallskip
+
+\textbf{Giovanni Neglia} --- Research Director, 3IA Côte d'Azur Chair holder, Head of the NEO project-team, Inria Centre at Université Côte d'Azur (France). Tel. +33(0)4\,92\,38\,79\,06; \href{mailto:giovanni.neglia@inria.fr}{giovanni.neglia@inria.fr}.}
+
+% =========================================================
+
+\section{Academic qualifications}
+\ecvitem{Mar. 2026}{\textbf{Qualification aux fonctions de Maître de conférences} 
+(national qualification for Associate Professor positions in France) --- 
+Section 27 (Computer Science), Conseil National des Universités (CNU).}
+
+% =========================================================
+
+\section{Professional experience}
+\ecvitem{Since Sept. 2024}{\textbf{Postdoctoral researcher} --- Linköping University (LiU), Sweden, Department of Electrical Engineering, Division of Communication Systems.}
+\ecvitem{Activities}{Research in distributed learning (decentralized/federated): algorithm design and analysis, privacy (utility--privacy trade-offs) and energy efficiency; systems considerations (communication, resources, deployment).}
+
+\ecvitem{Jul. 2026 -- Sept. 2026}{\textbf{Visiting researcher} --- Nanyang Technological University (NTU), Singapore, College of Computing and Data Science. Host: Assoc.\ Prof.\ Chee Wei Tan.}
+\ecvitem{Activities}{Research stay funded by my Vinnova mobility grant (project MADELEINE, see \emph{Grants and awards}): joint design of decentralized learning algorithms and wireless resources for AI-native 6G networks.}
+
+\ecvitem{Sept. 2020 -- Mar. 2021}{\textbf{Telecommunications engineer} --- TIM S.p.A., Rome (Italy).}
+\ecvitem{Activities}{Technical consulting and support on a cloud platform; support for implementation and integration; consulting activities.}
+
+% =========================================================
+
+\section{Education}
+
+\ecvitem{Apr. 2021 -- Jul. 2024}{\textbf{PhD in Computer Science} --- Inria (France)}
+\ecvitem{Title}{\textit{Client heterogeneity in federated learning systems}.}
+\ecvitem{Defense}{3 July 2024.}
+\ecvitem{Supervision}{Giovanni Neglia (supervisor); Alain Jean-Marie (co-supervisor).}
+\ecvitem{Reviewers}{H. Vincent Poor (Princeton University, United States); \newline Michele Rossi (Università di Padova, Italy).}
+\ecvitem{Committee}{Walid Dabbous, Research Director, Inria Centre at Université Côte d'Azur (Inria, France), \emph{committee chair};\newline
+H. Vincent Poor, Professor, Princeton University (United States);\newline
+Michele Rossi, Professor, Università degli Studi di Padova (Italy);\newline
+Erik G. Larsson, Professor, Linköping University (Sweden);\newline
+Francesco Malandrino, Researcher, CNR-IEIIT (Italy).}
+\ecvitem{References}{\url{https://theses.fr/2024COAZ4029}; \url{https://theses.hal.science/tel-04685040}}
+
+
+\ecvitem{Sep. 2019 -- Aug. 2020}{\textbf{Master's degree in Computer Science} --- Université Côte d'Azur (France)}
+\ecvitem{Grade}{With merit (\textit{Très bien})}
+\ecvitem{Thesis}{\textit{Development of an indoor localization system using Wi-Fi fingerprinting for smartphones}. Supervision: Arnaud Legout; Chadi Barakat.}
+
+\ecvitem{Oct. 2018 -- Sept. 2020}{\textbf{Master's degree in Telecommunications Engineering} --- Politecnico di Bari (Italy)}
+\ecvitem{Grade}{110/110 \textit{cum laude}}
+\ecvitem{Supervision}{Luigi Alfredo Grieco.}
+
+\ecvitem{Sept. 2014 -- Feb. 2018}{\textbf{Bachelor's degree in Computer Science} --- Politecnico di Bari (Italy)}
+\ecvitem{Grade}{109/110}
+\ecvitem{Thesis}{\textit{Performance analysis of nanoscale communication systems}. Supervision: Giuseppe Piro; Gennaro Boggia.}
+
+% =========================================================
+\section{Teaching}
+\ecvitem{}{Teaching at the \textbf{Master's} level in France and Sweden: \textbf{79~h}.}
+\ecvitem{Fall 2026 (Linköping University)}{\textbf{Distributed Information Processing and Machine Learning} (TSKS38): \textbf{28 h} \newline Type: tutorials (12 h) and labs (16 h, with Adrian Edin), in English.\newline
+Link: \url{https://studieinfo.liu.se/en/kurs/TSKS38/ht-2026}}
+\ecvitem{Fall 2025 (Linköping University)}{\textbf{Distributed Information Processing and Machine Learning} (TSKS38): \textbf{12 h} \newline Type: tutorials (in English).\newline
+Role: preparation of exercises and solutions, leading sessions, grading exams.
+Link: \url{https://studieinfo.liu.se/en/kurs/TSKS38/ht-2025}}
+\ecvitem{2022 -- 2024 (Université Côte d'Azur)}{\textbf{Federated Learning and Data Privacy} (M2 DS4H): \textbf{12 h} (2023--2024, including 3 h co-taught with C. Xu); \textbf{12 h} (2022--2023), lab sessions (in English).
+Link: \url{http://www-sop.inria.fr/members/Giovanni.Neglia/federatedlearning/}}
+\ecvitem{2021 -- 2022 (Université Côte d'Azur)}{\textbf{Optimization for Machine Learning} (M1 DS4H): \textbf{15 h} (including 9 h co-taught with O. Marfoq), lab sessions (in English).\newline
+Link: \url{https://www-sop.inria.fr/members/Giovanni.Neglia/optimal/}}
+
+% =========================================================
+\section{Research activities}
+\ecvitem{Positioning}{Design of scalable distributed algorithms for efficient use of data and system resources (computation, communication, energy), incorporating privacy and energy efficiency.}
+\ecvitem{Methods}{Optimization (convex/non-convex), linear algebra, graph theory, stochastic modeling, statistical learning theory.}
+
+% =========================================================
+\section{Publications}
+\ecvitem{International journals}{\begin{itemize}
+  \item D. R. Arputharaj, C. Rodriguez, \textbf{A. Rodio}, G. Neglia. \textit{Carbon-Aware Client and Time Scheduling for Green Federated Learning}. \textbf{Performance Evaluation}, art.\ 102597, 2026. DOI: \url{10.1016/j.peva.2026.102597}.
+  \item C. Xu, C. Kaplan, \textbf{A. Rodio}, T. Si Salem, G. Neglia. \textit{Federated Learning for Collaborative Inference Systems: The case of early exit networks}. \textbf{Performance Evaluation}, vol.\ 171, art.\ 102538, 2026. DOI: \url{10.1016/j.peva.2025.102538}.
+  \item \textbf{A. Rodio}, F. Faticanti, O. Marfoq, G. Neglia, E. Leonardi. \textit{Federated Learning Under Heterogeneous and Correlated Client Availability}. \textbf{IEEE/ACM Transactions on Networking}, 2024. DOI: \url{10.1109/TNET.2023.3324257}.
+\end{itemize}}
+
+\ecvitem{International conferences / workshops}{\begin{itemize}
+  \item \textbf{A. Rodio}, G. Neglia, Z. Chen, E. G. Larsson. \textit{A Unified Convergence Analysis for Semi-Decentralized Learning: Sampled-to-Sampled vs. Sampled-to-All Communication}. \textbf{AAAI Conference on Artificial Intelligence 2026} (oral presentation). DOI: \url{10.1609/aaai.v40i30.39705}.
+  \item D. Pérez Herrera, \textbf{A. Rodio}, Z. Chen, E. G. Larsson. \textit{Power Allocation for Average Consensus in Wireless Networks with Link Failures}. \textbf{IEEE European Wireless 2025}. ISBN: 978-3-8007-6526-3.
+  \item D. R. Arputharaj, C. Rodriguez, \textbf{A. Rodio}, G. Neglia. \textit{Green Federated Learning via Carbon-Aware Client and Time Slot Scheduling}. \textbf{IEEE MASCOTS 2025}. DOI: \url{10.1109/MASCOTS67699.2025.11283314}.
+  \item \textbf{A. Rodio}, Z. Chen, E. G. Larsson. \textit{Optimizing Privacy--Utility Trade-off in Decentralized Learning with Generalized Correlated Noise}. \textbf{IEEE ITW 2025}. DOI: \url{10.1109/ITW62417.2025.11240322}.
+  \item \textbf{A. Rodio}. \textit{The Many Facets of Variance Reduction in Federated Learning}. \textbf{ACM SIGMETRICS / IFIP Performance 2024} (abstract/poster). DOI: \url{10.1145/3725536.3725542}.
+  \item \textbf{A. Rodio}, G. Neglia. \textit{FedStale: Leveraging Stale Updates in Federated Learning}. \textbf{ECAI 2024}. DOI: \url{10.3233/FAIA240849}.
+  \item \textbf{A. Rodio}, G. Neglia, F. Busacca, S. Mangione, S. Palazzo, F. Restuccia, I. Tinnirello. \textit{Federated Learning with Packet Losses}. \textbf{IEEE WPMC 2023}. DOI: \url{10.1109/WPMC59531.2023.10338845}.
+  \item \textbf{A. Rodio}, F. Faticanti, O. Marfoq, G. Neglia, E. Leonardi. \textit{Federated Learning under Heterogeneous and Correlated Client Availability}. \textbf{IEEE INFOCOM 2023}. DOI: \url{10.1109/INFOCOM53939.2023.10228876}.
+\end{itemize}}
+
+\ecvitem{Under review}{\begin{itemize}
+  \item D. Pérez Herrera, \textbf{A. Rodio}, Z. Chen, E. G. Larsson. \textit{Heterogeneity-Aware Topology and Mixing Matrix Design for Decentralized Learning}. Submitted to \textbf{IEEE Transactions on Signal and Information Processing over Networks}.
+\end{itemize}}
+
+\ecvitem{PhD thesis}{\textbf{A. Rodio}. \textit{Client heterogeneity in federated learning systems}. PhD thesis, Université Côte d'Azur, 2024. \newline
+HAL: \url{https://theses.hal.science/tel-04685040} --- theses.fr: \url{https://theses.fr/2024COAZ4029}.}
+
+% =========================================================
+\section{Scientific outreach and service}
+% \ecvitem{Talks (beyond conferences listed above)}{\begin{itemize}
+%   \item \textit{Federated Learning under Heterogeneous and Correlated Client Availability} --- SophI.A Summit 2022 (Sophia-Antipolis, France), 23 Nov. 2022.
+%   \item \textit{Federated Learning under Heterogeneous and Correlated Client Availability} --- Workshop on Frugal Machine Learning (Université Grenoble Alpes), 25 Nov. 2022.
+% \end{itemize}}
+\ecvitem{Peer review}{\textbf{Journals:} IEEE Journal on Selected Areas in Communications; IEEE Transactions on Automatic Control; IEEE Transactions on Mobile Computing; Computer Networks.\newline
+\textbf{Conferences:} AAAI; UAI; IEEE INFOCOM; IEEE GLOBECOM; IEEE ICC; IEEE ICASSP.}
+\ecvitem{Session chair}{IEEE Information Theory Workshop (ITW 2025); AAAI Conference on Artificial Intelligence (AAAI 2026).}
+\ecvitem{Committees / evaluations}{Evaluator of \textbf{Master's final projects} (MSc \textit{Data Science and Artificial Intelligence}), 2023.}
+
+
+% =========================================================
+\section{Supervision / mentoring}
+\ecvitem{2026}{Mehran Mamivand --- Master's thesis, Linköping University (Sweden): \textit{Energy-Efficient Semi-Decentralized Federated Learning via Cooperative D2D Model Aggregation}.}
+\ecvitem{2026}{Camilla Samuelsson --- Master's thesis, Linköping University (Sweden), carried out at the Swedish Defence Research Agency (FOI): \textit{Set Reconciliation Algorithms in Tactical Networks}.}
+\ecvitem{2024}{Albachiara Bellaroba --- Master's thesis, Università degli Studi di Roma "La Sapienza" (Italy).}
+\ecvitem{2023}{Mohamed Salah Jebali --- Master's thesis, Università di Firenze (Italy).}
+\ecvitem{2023}{Maysae Hmamouchi --- Master's final research project, Université Côte d'Azur (France).}
+
+% =========================================================
+\section{Grants and awards}
+\ecvitem{2026}{\textbf{Vinnova research grant} --- call \textit{Individual mobility within 6G for collaborations with the USA and Singapore}. Project MADELEINE: \textit{Massive Decentralised Learning in the Network Edge} (ref.\ 2026-01731), SEK~468,003. Sole applicant and project leader; funds a research stay at NTU Singapore and a new collaboration between Linköping University and NTU.}
+\ecvitem{2025}{\textbf{IEEE Information Theory Society Travel Grant}.}
+\ecvitem{2024}{\textbf{ACM SIGMETRICS Student Travel Grant}.}
+\ecvitem{2021}{\textbf{3IA Côte d'Azur doctoral fellowship} (PhD funding).}
+
+% =========================================================
+\section{Skills}
+\ecvitem{Computing / tools}{Python; C/C++; Java; Linux; Git; Jupyter notebooks; experience with reproducible development.}
+\ecvitem{Teaching topics}{Probability/statistics; optimization; graph algorithms; distributed systems; networks; cloud/virtualization; machine learning (foundations); distributed learning; privacy.}
+
+% =========================================================
+\section{Languages}
+\ecvitem{}{Italian (native); English (C1); French (B2).}
+
+\end{europecv}
+\end{document}
