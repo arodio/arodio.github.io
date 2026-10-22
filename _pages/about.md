@@ -35,6 +35,8 @@ I am a post-doctoral researcher at [Linköping University, Sweden](https://liu.s
 
 Previously, I completed my PhD at [Inria, France](https://team.inria.fr/neo/team-members/), working with [Giovanni Neglia](http://www-sop.inria.fr/members/Giovanni.Neglia/) on federated learning. 
 
-My research focuses on designing scalable distributed algorithms for efficient use of data and system resources. I employ mathematical tools from distributed optimization and statistical learning theory.
+My research focuses on designing scalable distributed algorithms for efficient use of data and system resources. I study the convergence of decentralized and federated learning, with a focus on communication, privacy, and energy efficiency, using mathematical tools from distributed optimization and statistical learning theory.
+
+In summer 2026, I visited the group of [Chee Wei Tan](https://dr.ntu.edu.sg/entities/person/Chee-Wei-Tan) at [NTU Singapore](https://www.ntu.edu.sg/computing), funded by a [Vinnova](https://www.vinnova.se/en/) mobility grant.
 
 In my spare time, I enjoy doing sports (mostly running and cycling), traveling, and going on hikes with friends and family. Also, I have lived in Nice and do speak [French](https://www.facebook.com/groups/586584704178688/).
